@@ -26,7 +26,7 @@ while option != "q":
 
         column = input('enter column name you want to update: ')
         newValue = input('Enter New Value: ')
-        ID = input('Enter Id of row you want to update')
+        ID = input('Enter Id of row you want to update: ')
 
         sqlMovies.UpdateRow(column, newValue, ID)
 
